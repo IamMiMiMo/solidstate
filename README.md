@@ -26,6 +26,12 @@ Customize everything in Wordpress customizer, including:
 
 2. Upload and activate the theme in your wordpress backend
 
+3. Create two empty pages, one named Blog (better to change its permalink to blog) and the other one just name it whatever you like (For example Home).
+
+4. Go to settings->reading, change "Your homepage displays" option to "A static page"
+
+5. "Homepage" select "Home", "Posts page" select "Blog", save it after you done
+
 ## License
 
 As inherit from HTML5 UP, this theme will be remain in [The Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
