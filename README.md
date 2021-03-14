@@ -6,7 +6,9 @@ This theme is classified as a personal blog theme for any purpose.
 
 ## Preview
 
-N/A
+Live Demo: [https://wordpress.sze-to.com](https://wordpress.sze-to.com)
+
+![preview](screenshot.png)
 
 ## Features
 
