@@ -126,22 +126,22 @@ figcaption{
     height: auto;
 }
 
-#footer .menu{
+#footer ul{
     list-style: none;
     padding-left: 0;
 }
 
-    #footer .menu li{
+    #footer ul li{
         border-top: solid 1px rgba(255, 255, 255, 0.125);
         padding: 0.5em 0;
     }
 
-    #footer .menu li:first-child {
+    #footer ul li:first-child {
         border-top: 0;
         padding-top: 0;
     }
 
-        #footer .menu .sub-menu li{
+        #footer .ul .sub-menu li{
             list-style: '- ';
         }
 
