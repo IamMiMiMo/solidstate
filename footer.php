@@ -45,7 +45,10 @@
 								}
 							?>
 							<ul class="copyright">
-								<li>&copy; <?php echo get_bloginfo('name') ?>. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Integrate: <a href="https://sze-to.com">SZE-TO</a></li>
+								<li>&copy; <?php echo get_bloginfo('name') ?>. All rights reserved.</li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Integrate: <a href="https://sze-to.com">SZE-TO</a></li>
+								<li>Theme: <a href="https://github.com/IamMiMiMo/solidstate-wordpress">Solid State (Wordpress)</a></li>
 							</ul>
 						</div>
 					</section>
