@@ -149,7 +149,7 @@ function solidstate_customize_register( $wp_customize ){
     ) );
 
     $wp_customize->add_setting('frontpage_article_number', array(
-        'default' => 4,
+        'default' => 2,
         'sanitize_callback' => 'absint',
     ));
     $wp_customize->add_control( 'frontpage_article_number', array(

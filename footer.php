@@ -3,7 +3,7 @@
 						<div class="inner">
 							<?php 
 								if (!get_theme_mod('footer_type') || get_theme_mod('footer_type') == 'html'){
-									echo get_theme_mod( 'footer_html' ) || '
+									echo get_theme_mod( 'footer_html' ) ? get_theme_mod( 'footer_html' ) : '
 									<h2 class="major">Get in touch</h2>
 									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
 									<form method="post" action="#" class="default-contact-form">
@@ -46,28 +46,28 @@
 									switch( get_theme_mod('footer_column_number') ){
 										case '1':
 							?>
-										<div class="col-12"><span class="fit"><?php dynamic_sidebar("footer-1"); ?></span></div>
+										<div class="footer-col col-12"><span class="fit"><?php dynamic_sidebar("footer-1"); ?></span></div>
 							<?php
 										break;
 										case '2':
 							?>
-										<div class="col-6 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-1"); ?></span></div>
-										<div class="col-6 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-2"); ?></span></div>
+										<div class="footer-col col-6 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-1"); ?></span></div>
+										<div class="footer-col col-6 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-2"); ?></span></div>
 							<?php
 										break;
 										case '3':
 							?>
-										<div class="col-4 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-1"); ?></span></div>
-										<div class="col-4 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-2"); ?></span></div>
-										<div class="col-4 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-3"); ?></span></div>
+										<div class="footer-col col-4 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-1"); ?></span></div>
+										<div class="footer-col col-4 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-2"); ?></span></div>
+										<div class="footer-col col-4 col-12-small"><span class="fit"><?php dynamic_sidebar("footer-3"); ?></span></div>
 							<?php
 										break;
 										case '4':
 							?>
-										<div class="col-3 col-6-medium col-12-small"><span class="fit"><?php dynamic_sidebar("footer-1"); ?></span></div>
-										<div class="col-3 col-6-medium col-12-small"><span class="fit"><?php dynamic_sidebar("footer-2"); ?></span></div>
-										<div class="col-3 col-6-medium col-12-small"><span class="fit"><?php dynamic_sidebar("footer-3"); ?></span></div>
-										<div class="col-3 col-6-medium col-12-small"><span class="fit"><?php dynamic_sidebar("footer-4"); ?></span></div>
+										<div class="footer-col col-3 col-6-medium col-12-small"><span class="fit"><?php dynamic_sidebar("footer-1"); ?></span></div>
+										<div class="footer-col col-3 col-6-medium col-12-small"><span class="fit"><?php dynamic_sidebar("footer-2"); ?></span></div>
+										<div class="footer-col col-3 col-6-medium col-12-small"><span class="fit"><?php dynamic_sidebar("footer-3"); ?></span></div>
+										<div class="footer-col col-3 col-6-medium col-12-small"><span class="fit"><?php dynamic_sidebar("footer-4"); ?></span></div>
 							<?php
 										break;
 									}

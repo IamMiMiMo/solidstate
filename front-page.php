@@ -54,7 +54,7 @@
 					<?php
 
 					$recent_posts = wp_get_recent_posts( array(
-						'numberposts' => get_theme_mod("frontpage_article_number"),
+						'numberposts' => get_theme_mod("frontpage_article_number") ? get_theme_mod("frontpage_article_number") : 2,
 						'post_status' => 'publish',
 					));
 
