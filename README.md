@@ -1,6 +1,6 @@
 # Solid State (Wordpress)
 
-Solid State (Wordpress) is a wordpress theme modified from Solid State HTML template created by ![HTML5 UP](http://html5up.net/).
+Solid State (Wordpress) is a wordpress theme modified from Solid State HTML template created by [HTML5 UP](http://html5up.net/).
 
 This theme is classified as a personal blog theme for any purpose.
 
@@ -28,7 +28,7 @@ Customize everything in Wordpress customizer, including:
 
 ## License
 
-As inherit from HTML5 UP, this theme will be remain in ![The Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+As inherit from HTML5 UP, this theme will be remain in [The Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
 
 That means, you can
 
