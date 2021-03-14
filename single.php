@@ -25,7 +25,7 @@
 			<div class="inner">
 				<h2><?php echo $title ?></h2>
 				<p><?php echo $author ?></p>
-				<?php if (get_the_category()) {?>
+				<?php if (has_category()) {?>
 					<p class="category"><i class="far fa-folder"></i> <?php echo $category_html ?></p>
 				<?php } ?>
 			</div>

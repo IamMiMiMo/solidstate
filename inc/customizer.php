@@ -69,7 +69,7 @@ function solidstate_customize_register( $wp_customize ){
         'section' => 'frontpage',
         'label' => __( 'Number of sessions' ),
         'choices' => array(
-            0 => '0',
+            'none' => '0',
             1 => '1',
             2 => '2',
             3 => '3',
@@ -169,6 +169,16 @@ function solidstate_customize_register( $wp_customize ){
         'settings' => 'frontpage_article_description',
     ) );
 
+    $wp_customize->add_setting('frontpage_article_readall',array(
+        'default' => 'Browse All',
+    ));
+    $wp_customize->add_control('frontpage_article_readall', array(
+        'type' => 'text',
+        'section' => 'frontpage',
+        'setting' => 'frontpage_article_readall',
+        'label' => 'Front Page "Browse All" text',
+    ));
+
     //blog customize
     $wp_customize->add_section('blog', array(
         'title' => __('Blog', 'blog'),
@@ -184,15 +194,6 @@ function solidstate_customize_register( $wp_customize ){
         'label' => 'Blog "Read More" text',
     ));
         
-    $wp_customize->add_setting('blog_allposts',array(
-        'default' => 'Browse All',
-    ));
-    $wp_customize->add_control('blog_allposts', array(
-        'type' => 'text',
-        'section' => 'blog',
-        'label' => 'Front Page "Browse All" text',
-    ));
-
     //footer customize
     $wp_customize->add_section('footer', array(
         'title' => __('Footer', 'footer'),

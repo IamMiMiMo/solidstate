@@ -11,7 +11,14 @@
 	<!-- Wrapper -->
 	<section id="wrapper">
 		<?php 
-			$num_loop = get_theme_mod('frontpage_session') >= 0 ? get_theme_mod('frontpage_session') : 3;
+			$num_loop = 3;
+			if (!get_theme_mod('frontpage_session')){
+				$num_loop = 3;
+			}else if (get_theme_mod('frontpage_session') == 'none'){
+				$num_loop = 0;
+			} else {
+				$num_loop = get_theme_mod('frontpage_session');
+			}
 			for($i = 1; $i <= $num_loop; $i++){
 
 		?>
@@ -65,7 +72,7 @@
 					
 				</section>
 				<ul class="actions">
-					<li><a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ) ?>" class="button"><?php echo get_theme_mod('blog_allposts') ? get_theme_mod('blog_allposts') : "Browse All" ?></a></li>
+					<li><a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ) ?>" class="button"><?php echo get_theme_mod('frontpage_article_readall') ? get_theme_mod('frontpage_article_readall') : "Browse All" ?></a></li>
 				</ul>
 			</div>
 		</section>
