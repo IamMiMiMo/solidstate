@@ -1,0 +1,147 @@
+/*
+Theme Name: Solid State
+Text Domain: SolidState
+Version: 1.0
+Description: Modified from Solid State HTML template
+Tags: responsive
+Author: KST
+Author URI: /
+*/
+
+/* comments */
+.comments{
+
+}
+
+    .comments .comment{
+        border-left: solid 4px rgba(255, 255, 255, 0.125);
+        margin: 0 0 2em 0;
+        padding: 1em 1em 1em 2em;
+        list-style: none;
+        background: rgba(255, 255, 255, 0.025);
+    }
+
+        .comments .comment .comment-meta{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 0.5em;
+        }
+
+            .comments .comment .comment-meta .comment-avatar{
+                margin-right: 2em;
+            }
+
+            .comments .comment .comment-meta .comment-by{
+                display :flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+                .comments .comment .comment-meta .comment-by label{
+                    margin: 0px;
+                }
+        
+        .comments .comment > p {
+            margin-bottom: 0.5em;
+        }
+
+        .comments .comment > ul {
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+            .comments .comment > ul > li {
+                padding: 0px;
+            }
+
+/* search form */
+
+.wrapper .inner .searchform input{
+    margin-right: 1em;
+}
+
+nav#menu div.inner form.searchform div.search-container input#search{
+    margin-right: 0.5em;
+}
+
+#footer .searchform .search-container{
+    flex-direction: column;
+}
+
+#footer .searchform .search-container input{
+    height: 3em;
+    margin-bottom: 0.5em;
+}
+
+.searchform{
+
+}
+    
+    .searchform .search-container{
+        display: flex;
+        flex-direction: row;
+        align-content: stretch;
+    }
+
+    .searchform .search-container input{
+        height: auto;
+    }
+    
+    .searchform .search-container button{
+        
+    }
+
+/* caption */
+
+figcaption{
+    text-align: center;
+    margin: 0px 0px 1em 0px !important;
+}
+
+/* post category and tag */
+
+.category span:after, .tag span:after {
+    content: ", ";
+}
+.category span:last-child:after, .tag span:last-child:after {
+    content: "";
+}
+
+/* overwrite wp default setting */
+
+.wp-block-media-text{
+    margin: 0 0 2em 0;
+}
+
+    .wp-block-media-text .wp-block-media-text__media img, .wp-block-media-text__media video {
+        max-width: 100%;
+        height:auto;
+        vertical-align: middle;
+    }
+
+.wp-block-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#footer .menu{
+    list-style: none;
+    padding-left: 0;
+}
+
+    #footer .menu li{
+        border-top: solid 1px rgba(255, 255, 255, 0.125);
+        padding: 0.5em 0;
+    }
+
+    #footer .menu li:first-child {
+        border-top: 0;
+        padding-top: 0;
+    }
+
+        #footer .menu .sub-menu li{
+            list-style: '- ';
+        }
+
