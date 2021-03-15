@@ -11,5 +11,5 @@
     </span>
     <a href="<?php the_permalink() ?>"><h2 class="major"><?php the_title(); ?></h2></a>
     <?php the_excerpt() ? the_excerpt() : "<p>(No excerpt)</p>" ?>
-    <a href="<?php the_permalink() ?>" class="special"><?php echo get_theme_mod('blog_readmore') ?></a>
+    <a href="<?php the_permalink() ?>" class="special"><?php echo get_theme_mod('blog_readmore') ? get_theme_mod('blog_readmore') : "Read More" ?></a>
 </article>
