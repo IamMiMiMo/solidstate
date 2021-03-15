@@ -5,7 +5,7 @@
    <li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
         <div class="comment-meta">
             <div class="comment-avatar">
-                <?php echo get_avatar($comment,$size='56',$default='http://0.gravatar.com/avatar/36c2a25e62935705c5565ec465c59a70?s=32&d=mm&r=g' ); ?>
+                <?php echo get_avatar($comment,$size='56',$default='https://0.gravatar.com/avatar/36c2a25e62935705c5565ec465c59a70?s=32&d=mm&r=g' ); ?>
             </div>
             <div class="comment-by">
                 <label><?php echo get_comment_author() ?></label>
