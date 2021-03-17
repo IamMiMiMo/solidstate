@@ -2,7 +2,7 @@
 
 Solid State (Wordpress) is a wordpress theme modified from Solid State HTML template created by [HTML5 UP](http://html5up.net/).
 
-This theme is classified as a personal blog theme for any purpose.
+You can use the theme for any purposes unless it is prohibited by HTML5 UP.
 
 ## Preview
 
@@ -32,11 +32,11 @@ Customize everything in Wordpress customizer, including:
 
 4. Go to settings->reading, change "Your homepage displays" option to "A static page"
 
-5. "Homepage" select "Home", "Posts page" select "Blog", save it after you done
+5. "Homepage" --> "Home", "Posts page" --> "Blog", save it after you done
 
 ## License
 
-As inherit from HTML5 UP, this theme will be remain in [The Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+As inherited from HTML5 UP, this theme remains in [The Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
 
 That means, you can
 
